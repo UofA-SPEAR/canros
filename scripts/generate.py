@@ -4,7 +4,7 @@ from __future__ import print_function
 import string
 import shutil
 import os
-import uavcan
+import pyuavcan_v0 as uavcan
 
 def get_canros_dir():
 	return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
